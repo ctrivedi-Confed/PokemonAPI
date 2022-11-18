@@ -1,0 +1,95 @@
+body{
+  width: 100%;
+  height: 100%;
+}
+.navBar, .pokemons {
+  display: flex;
+  margin: 1rem 0;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pokemonContainer, .basicContainer {
+  height: 70vh;
+}
+
+.pokemons {
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+.card {
+  width: 45%;
+  text-align: center;
+}
+
+.radioGroup {
+  width: 30%;
+  text-align: center;
+}
+
+.mainFormContainer {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto auto;
+}
+
+.mainFormContainer>div {
+  width: 80%;
+  
+}
+
+h1{
+  text-align: center;
+}
+
+.controlButtons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.phoneNumber {
+  display: flex;
+}
+
+.phoneNumber img {
+  height: 1rem;
+  width: 2rem;
+  margin: 1rem;
+}
+
+.navigationClass {
+  text-decoration: none;
+  color: black;
+}
+
+.pokemonTypes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pokemonTypes span {
+  cursor: pointer;
+}
+
+.searchInput {
+  float: right;
+  padding: 1rem;
+  margin:1rem;
+  width: 30rem;
+}
+
+.radioGroup {
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.form-check {
+  padding-left: 3em!important;
+}
+
